@@ -6,795 +6,833 @@ function App() {
     <div className="portfolio">
 
       {/* ================= NAVBAR ================= */}
-
       <header className="navbar">
-
         <a href="#home" className="logo">
           Sakshi<span>.</span>
         </a>
 
         <nav>
+          <a href="#home">Home</a>
           <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#education">Education</a>
-          <a href="#certifications">Certifications</a>
+          <a href="#certifications">Certificates</a>
           <a href="#contact">Contact</a>
         </nav>
 
-        <a href="#contact" className="hire-btn">
-          Hire me
+        <a href="#contact" className="nav-btn">
+          Hire Me
         </a>
-
       </header>
 
 
       {/* ================= HERO ================= */}
-
       <section className="hero" id="home">
-
-        <div className="hero-content">
+        <div className="hero-container">
 
           <div className="hero-text">
-
-            <p className="small-title">
-              HELLO, I'M
-            </p>
+            <p className="eyebrow">HELLO, I'M</p>
 
             <h1>
               Sakshi <span>Pawar</span>
             </h1>
 
-            <h2>
-              Data Analyst | AI & ML Graduate
-            </h2>
+            <h2>Data Analyst | AI & ML Graduate</h2>
 
             <p className="hero-description">
-              AI & Machine Learning graduate skilled in SQL, Power BI,
-              Python, Pandas, NumPy and Excel, with hands-on experience
-              in data cleaning, exploratory data analysis, predictive
-              analytics and dashboard development.
+              I'm an AI & Machine Learning graduate interested in Data
+              Analytics. I work with Python, SQL, Power BI and Excel.
             </p>
 
             <p className="hero-description">
-              I build end-to-end analytics projects that translate raw
-              data into actionable business insights.
+              I like exploring data, finding patterns and creating
+              dashboards that are simple and easy to understand.
             </p>
-
-
-            {/* BUTTONS */}
 
             <div className="hero-buttons">
-
               <a
-                href="#projects"
-                className="primary-btn"
+                href="/Sakshi_Pawar_Resume.pdf"
+                className="btn primary"
+                target="_blank"
+                rel="noreferrer"
               >
-                View my work
+                Download Resume
               </a>
 
+              <a href="#contact" className="btn outline">
+                Contact Me
+              </a>
+            </div>
+
+            <div className="hero-socials">
               <a
                 href="https://www.linkedin.com/in/sakshipawar0407/"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="secondary-btn"
+                rel="noreferrer"
               >
                 LinkedIn
               </a>
 
               <a
-                href="/Sakshi_Pawar_Resume.pdf"
+                href="https://github.com/psakshi2402-hub"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="secondary-btn"
+                rel="noreferrer"
               >
-                Resume
+                GitHub
               </a>
 
+              <a href="mailto:sakshirpawar24@gmail.com">
+                Email
+              </a>
             </div>
-
-
-            {/* CONTACT INFO */}
-
-            <div className="contact-info">
-
-              <span>
-                📍 Sangli, Maharashtra, India
-              </span>
-
-              <span>
-                ✉️ psakshi2402@gmail.com
-              </span>
-
-              <span>
-                📱 7385576691
-              </span>
-
-            </div>
-
           </div>
 
 
-          {/* PHOTO */}
+          <div className="hero-image-wrapper">
+            <div className="image-glow"></div>
 
-          <div className="hero-image">
-
-            <div className="image-circle">
-
-              <img
-                src="/profile.jpg"
-                alt="Sakshi Pawar"
-              />
-
+            <div className="profile-image">
+              <img src="/profile.jpg" alt="Sakshi Pawar" />
             </div>
 
+            <div className="floating-card card-one">
+              <strong>3+</strong>
+              <span>Projects</span>
+            </div>
+
+            <div className="floating-card card-two">
+              <strong>AI & ML</strong>
+              <span>Graduate</span>
+            </div>
           </div>
 
         </div>
-
       </section>
 
 
       {/* ================= ABOUT ================= */}
-
-      <section
-        className="section"
-        id="about"
-      >
+      <section className="section about-section" id="about">
 
         <div className="section-heading">
-
           <p>ABOUT ME</p>
-
-          <h2>
-            Turning data into useful insights.
-          </h2>
-
+          <h2>A little about me</h2>
         </div>
 
+        <div className="about-layout">
 
-        <div className="about-grid">
+          <div className="about-image">
+            <img src="/profile.jpg" alt="Sakshi Pawar" />
+          </div>
 
-          <div className="about-card">
+          <div className="about-content">
 
-            <div className="card-icon">
-              📊
-            </div>
+            <span className="about-role">
+              Data Analyst & AI / ML Graduate
+            </span>
 
             <h3>
-              Data Analytics
+              I enjoy working with data and solving practical problems.
             </h3>
 
             <p>
-              I work with structured and raw datasets to identify
-              patterns, trends and useful business information.
+              I recently completed my B.Tech in Artificial Intelligence
+              and Machine Learning. During college and internships, I
+              worked on projects related to data analysis, machine
+              learning and application development.
             </p>
 
+            <p>
+              I enjoy learning new tools and trying them on practical
+              problems. I am currently looking for an entry-level
+              opportunity where I can use my skills, learn from the team
+              and grow as a Data Analyst.
+            </p>
+
+            <div className="personal-info">
+
+              <div>
+                <span>Name</span>
+                <strong>Sakshi Pawar</strong>
+              </div>
+
+              <div>
+                <span>Email</span>
+                <strong>sakshirpawar24@gmail.com</strong>
+              </div>
+
+              <div>
+                <span>Location</span>
+                <strong>Sangli, Maharashtra</strong>
+              </div>
+
+              <div>
+                <span>Interested In</span>
+                <strong>Data Analytics & AI/ML</strong>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      {/* ================= EDUCATION ================= */}
+      <section className="section education-section" id="education">
+
+        <div className="section-heading">
+          <p>EDUCATION</p>
+          <h2>My Education</h2>
+        </div>
+
+        <div className="education-grid">
+
+          <div className="education-card">
+            <span className="education-year">
+              2023 – 2026
+            </span>
+
+            <h3>
+              B.Tech in Artificial Intelligence & Machine Learning
+            </h3>
+
+            <h4>
+              Adarsh Institute of Technology & Research Center, Vita
+            </h4>
+
+            <p className="score">
+              CGPA: 8/10
+            </p>
           </div>
 
 
-          <div className="about-card">
-
-            <div className="card-icon">
-              💻
-            </div>
+          <div className="education-card">
+            <span className="education-year">
+              2020 – 2023
+            </span>
 
             <h3>
-              Python & SQL
+              Diploma in Computer Engineering
             </h3>
 
-            <p>
-              I use Python and SQL for data cleaning, transformation,
-              analysis and extracting meaningful information.
-            </p>
+            <h4>
+              Bharati Vidyapeeth's College of Engineering, Kolhapur
+            </h4>
 
+            <p className="score">
+              76%
+            </p>
           </div>
 
 
-          <div className="about-card">
-
-            <div className="card-icon">
-              📈
-            </div>
+          <div className="education-card">
+            <span className="education-year">
+              2019 – 2020
+            </span>
 
             <h3>
-              Dashboard Development
+              Secondary School Certificate
             </h3>
 
-            <p>
-              I create interactive dashboards using Power BI to
-              present KPIs, trends and business insights clearly.
-            </p>
+            <h4>
+              Pt Vishnu Digambarkar Vidyalaya, Palus
+            </h4>
 
+            <p className="score">
+              79%
+            </p>
           </div>
 
         </div>
+      </section>
 
+
+      {/* ================= EXPERIENCE ================= */}
+      <section className="section experience-section" id="experience">
+
+        <div className="section-heading">
+          <p>EXPERIENCE</p>
+          <h2>My Internship Experience</h2>
+        </div>
+
+        <div className="timeline">
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+
+            <div className="timeline-content">
+
+              <span className="timeline-date">
+                FEB 2026 – AUG 2026
+              </span>
+
+              <h3>Mobile Application Developer Intern</h3>
+
+              <h4>
+                ECS Software Technologies Pvt. Ltd., Karad
+              </h4>
+
+              <p>
+                I worked on an Android application using Java and
+                Android Studio. I helped add and test different
+                application features.
+              </p>
+
+              <p>
+                I also worked on the design of more than five screens
+                and made changes based on the project requirements.
+              </p>
+
+            </div>
+          </div>
+
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+
+            <div className="timeline-content">
+
+              <span className="timeline-date">
+                APR 2024 – MAY 2024
+              </span>
+
+              <h3>Python & Machine Learning Intern</h3>
+
+              <h4>
+                Techspot Infotech, Sangli
+              </h4>
+
+              <p>
+                During this internship, I worked with Python and
+                machine learning for data-related tasks.
+              </p>
+
+              <p>
+                I practiced working with datasets containing more than
+                5,000 records and learned how to prepare data for
+                analysis and prediction.
+              </p>
+
+            </div>
+          </div>
+
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+
+            <div className="timeline-content">
+
+              <span className="timeline-date">
+                JUL 2022 – AUG 2022
+              </span>
+
+              <h3>Software Trainee – PHP & MySQL</h3>
+
+              <h4>
+                EarthLogic Technologies, Kolhapur
+              </h4>
+
+              <p>
+                I worked with PHP and MySQL while learning how
+                web-based management systems are developed and
+                maintained.
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* ================= STATS ================= */}
+      <section className="stats-section">
+
+        <div className="stats-container">
+
+          <div className="stat-card">
+            <strong>13+</strong>
+            <span>Projects</span>
+          </div>
+
+          <div className="stat-card">
+            <strong>7+</strong>
+            <span>Technical Skills</span>
+          </div>
+
+          <div className="stat-card">
+            <strong>3</strong>
+            <span>Internships</span>
+          </div>
+
+          <div className="stat-card">
+            <strong>2026</strong>
+            <span>B.Tech Graduate</span>
+          </div>
+
+        </div>
       </section>
 
 
       {/* ================= SKILLS ================= */}
-
-      <section
-        className="section"
-        id="skills"
-      >
+      <section className="section skills-section" id="skills">
 
         <div className="section-heading">
-
           <p>MY SKILLS</p>
-
-          <h2>
-            Tools I work with.
-          </h2>
-
+          <h2>Tools I Work With</h2>
         </div>
-
 
         <div className="skills-grid">
 
           <div className="skill-card">
+            <div className="skill-icon">01</div>
 
-            <h3>
-              Data Analytics & Visualization
-            </h3>
+            <h3>Data Analytics & Visualization</h3>
 
             <div className="skill-tags">
-
               <span>Power BI</span>
               <span>Tableau</span>
               <span>Looker Studio</span>
               <span>Excel</span>
               <span>Pivot Tables</span>
               <span>VLOOKUP</span>
-
             </div>
-
           </div>
 
 
           <div className="skill-card">
+            <div className="skill-icon">02</div>
 
-            <h3>
-              Programming & Database
-            </h3>
+            <h3>Programming & Database</h3>
 
             <div className="skill-tags">
-
               <span>Python</span>
               <span>SQL</span>
               <span>MySQL</span>
               <span>PHP</span>
               <span>Pandas</span>
               <span>NumPy</span>
-
             </div>
-
           </div>
 
 
           <div className="skill-card">
+            <div className="skill-icon">03</div>
 
-            <h3>
-              Machine Learning
-            </h3>
+            <h3>Machine Learning & AI</h3>
 
             <div className="skill-tags">
-
               <span>Predictive Analytics</span>
               <span>Classification</span>
               <span>Regression</span>
               <span>Model Evaluation</span>
               <span>NLP</span>
-
             </div>
-
           </div>
 
 
           <div className="skill-card">
+            <div className="skill-icon">04</div>
 
-            <h3>
-              Tools & Platforms
-            </h3>
+            <h3>Tools & Platforms</h3>
 
             <div className="skill-tags">
-
               <span>GitHub</span>
               <span>VS Code</span>
               <span>Google Colab</span>
               <span>Android Studio</span>
-
             </div>
-
           </div>
 
         </div>
-
       </section>
 
 
       {/* ================= PROJECTS ================= */}
-
-      <section
-        className="section projects-section"
-        id="projects"
-      >
+      <section className="section projects-section" id="projects">
 
         <div className="section-heading">
-
-          <p>SELECTED WORK</p>
-
-          <h2>
-            Projects
-          </h2>
-
+          <p>MY PROJECTS</p>
+          <h2>Projects I have worked on</h2>
         </div>
-
 
         <div className="projects-grid">
 
-
-          {/* PROJECT 1 */}
-
           <div className="project-card">
 
-            <span className="project-number">
-              01
-            </span>
+            <div className="project-top">
+              <span>01</span>
+              <span>DATA ANALYTICS</span>
+            </div>
 
             <h3>
               Customer Churn & Revenue Risk Analysis
             </h3>
 
-            <ul>
+            <p>
+              I worked with more than 7,000 customer records to
+              understand why some customers leave a service.
+            </p>
 
-              <li>
-                Analyzed 7,000+ customer records to identify
-                key churn drivers, finding month-to-month
-                contract customers churned far more than
-                annual holders.
-              </li>
+            <p>
+              I used Python and SQL to clean and explore the data.
+              I found that month-to-month customers were more likely
+              to leave. I also built a Logistic Regression model that
+              reached 80% accuracy.
+            </p>
 
-              <li>
-                Built a Logistic Regression model predicting
-                churn risk with 80% accuracy and surfaced
-                the top predictive retention features.
-              </li>
-
-              <li>
-                Designed an interactive Power BI dashboard
-                with churn KPIs and filterable segments.
-              </li>
-
-            </ul>
-
-            <div className="tech-tags">
-
+            <div className="project-tags">
               <span>Python</span>
               <span>SQL</span>
               <span>scikit-learn</span>
               <span>Power BI</span>
-
             </div>
 
           </div>
 
 
-          {/* PROJECT 2 */}
-
           <div className="project-card">
 
-            <span className="project-number">
-              02
-            </span>
+            <div className="project-top">
+              <span>02</span>
+              <span>POWER BI</span>
+            </div>
 
             <h3>
               Sales Dashboard Analysis
             </h3>
 
-            <ul>
+            <p>
+              I created a Power BI dashboard using more than 10,000
+              sales records. The dashboard shows sales trends,
+              revenue and important KPIs in one place.
+            </p>
 
-              <li>
-                Developed interactive dashboards analyzing
-                10,000+ sales records to track revenue
-                trends and KPIs.
-              </li>
+            <p>
+              I used SQL to prepare and clean the data before
+              creating the dashboard. This helped reduce the time
+              needed for regular reporting.
+            </p>
 
-              <li>
-                Used SQL for extraction, cleaning and
-                transformation, improving reporting time
-                by 40%.
-              </li>
-
-            </ul>
-
-            <div className="tech-tags">
-
+            <div className="project-tags">
               <span>Power BI</span>
               <span>SQL</span>
               <span>ETL</span>
-
             </div>
 
           </div>
 
 
-          {/* PROJECT 3 */}
+          <div className="project-card">
 
-          <div className="project-card project-three">
-
-            <span className="project-number">
-              03
-            </span>
+            <div className="project-top">
+              <span>03</span>
+              <span>AI / ML</span>
+            </div>
 
             <h3>
               AI-Powered Smart Interview Preparation System
             </h3>
 
-            <ul>
+            <p>
+              I built this project to help students practice
+              interviews. The system uses Python, NLP and Speech
+              Recognition to process interview responses.
+            </p>
 
-              <li>
-                Built an AI interview preparation system
-                supporting 100+ mock interview sessions.
-              </li>
+            <p>
+              I also added voice and facial analysis so users can
+              receive feedback after a mock interview.
+            </p>
 
-              <li>
-                Implemented voice and facial analysis for
-                real-time feedback, improving response
-                accuracy by 25%.
-              </li>
-
-            </ul>
-
-            <div className="tech-tags">
-
+            <div className="project-tags">
               <span>Python</span>
               <span>NLP</span>
               <span>Speech Recognition</span>
               <span>OpenCV</span>
-
             </div>
 
           </div>
 
         </div>
-
       </section>
-<section className="experience-section" id="experience">
 
-  <div className="experience-grid">
 
-    {/* EXPERIENCE */}
-    <div className="experience-column">
+      {/* ================= RESUME ================= */}
+      <section className="resume-section">
 
-      <p className="section-label">
-        WHERE I WORKED
-      </p>
+        <div className="resume-content">
 
-      <h2>Experience</h2>
+          <div>
+            <p className="eyebrow">MY RESUME</p>
 
-      <div className="timeline">
+            <h2>
+              Interested in my work?
+            </h2>
 
-        <div className="timeline-item">
-
-          <div className="timeline-date">
-            FEB 2026 – AUG 2026
+            <p>
+              You can download my resume to see my education,
+              internship experience, projects and skills.
+            </p>
           </div>
 
-          <div className="timeline-title">
-            Mobile Application Developer Intern
-          </div>
-
-          <div className="timeline-place">
-            ECS Software Technologies Pvt. Ltd., Karad
-          </div>
-
-          <p className="timeline-description">
-            — Built and tested features for an Android application using Java and Android Studio.
-          </p>
-
-          <p className="timeline-description">
-            — Designed and implemented 5+ user interface screens.
-          </p>
+          <a
+            href="/Sakshi_Pawar_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="btn primary"
+          >
+            Download Resume
+          </a>
 
         </div>
+      </section>
 
 
-        <div className="timeline-item">
-
-          <div className="timeline-date">
-            APR 2024 – MAY 2024
-          </div>
-
-          <div className="timeline-title">
-            Python & Machine Learning Intern
-          </div>
-
-          <div className="timeline-place">
-            Techspot Infotech, Sangli
-          </div>
-
-          <p className="timeline-description">
-            — Developed Python scripts and ML models for data analysis and prediction tasks.
-          </p>
-
-          <p className="timeline-description">
-            — Worked with datasets of 5,000+ records.
-          </p>
-
-        </div>
-
-
-        <div className="timeline-item">
-
-          <div className="timeline-date">
-            JUL 2022 – AUG 2022
-          </div>
-
-          <div className="timeline-title">
-            Software Trainee (PHP & MySQL)
-          </div>
-
-          <div className="timeline-place">
-            EarthLogic Technologies, Kolhapur
-          </div>
-
-          <p className="timeline-description">
-            — Built and maintained PHP/MySQL modules for web-based management systems.
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-    {/* EDUCATION */}
-    <div className="education-column">
-
-      <p className="section-label">
-        ACADEMICS
-      </p>
-
-      <h2>Education</h2>
-
-      <div className="timeline">
-
-        <div className="timeline-item">
-
-          <div className="timeline-date">
-            SEPT 2023 – JUNE 2026
-          </div>
-
-          <div className="timeline-title">
-            B.Tech in Artificial Intelligence & Machine Learning
-          </div>
-
-          <div className="timeline-place">
-            Adarsh Institute of Technology & Research Center, Vita
-          </div>
-
-          <div className="education-score">
-            CGPA: 8/10
-          </div>
-
-        </div>
-
-
-        <div className="timeline-item">
-
-          <div className="timeline-date">
-            OCT 2020 – JUNE 2023
-          </div>
-
-          <div className="timeline-title">
-            Diploma in Computer Engineering
-          </div>
-
-          <div className="timeline-place">
-            Bharati Vidyapeeth's College of Engineering, Kolhapur
-          </div>
-
-          <div className="education-score">
-            76%
-          </div>
-
-        </div>
-
-
-        <div className="timeline-item">
-
-          <div className="timeline-date">
-            JUNE 2019 – MARCH 2020
-          </div>
-
-          <div className="timeline-title">
-            Secondary School Certificate
-          </div>
-
-          <div className="timeline-place">
-            Pt Vishnu Digambarkar Vidyalaya, Palus
-          </div>
-
-          <div className="education-score">
-            79%
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-      {/* ================= CERTIFICATIONS ================= */}
-
+      {/* ================= CERTIFICATES ================= */}
       <section
-        className="section"
+        className="section achievements-section"
         id="certifications"
       >
 
         <div className="section-heading">
-
-          <p>CERTIFICATIONS</p>
-
-          <h2>
-            Learning & credentials.
-          </h2>
-
+          <p>CERTIFICATES</p>
+          <h2>My Certifications</h2>
         </div>
 
+        <div className="achievement-grid">
 
-        <div className="certifications-grid">
-
-          <div className="cert-card">
-
-            <span>✓</span>
+          {/* Google Cloud */}
+          <div className="achievement-card">
+            <strong>✓</strong>
 
             <div>
-              <h3>
-                Google Cloud Career Launchpad
-              </h3>
+              <h3>Google Cloud Career Launchpad</h3>
+              <span>Data Analytics Track</span>
 
-              <p>
-                Data Analytics Track
-              </p>
+              <a
+                href="/google-cloud-career-launchpad.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-certificate"
+              >
+                View Certificate
+              </a>
             </div>
-
           </div>
 
 
-          <div className="cert-card">
-
-            <span>✓</span>
+          {/* Deloitte */}
+          <div className="achievement-card">
+            <strong>✓</strong>
 
             <div>
-              <h3>
-                Data Analytics
-              </h3>
+              <h3>Data Analytics</h3>
+              <span>Deloitte</span>
 
-              <p>
-                Deloitte
-              </p>
+              <a
+                href="/deloitte-data-analytics.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-certificate"
+              >
+                View Certificate
+              </a>
             </div>
-
           </div>
 
 
-          <div className="cert-card">
-
-            <span>✓</span>
+          {/* Tata Forage */}
+          <div className="achievement-card">
+            <strong>✓</strong>
 
             <div>
-              <h3>
-                GenAI Powered Data Analytics
-              </h3>
+              <h3>GenAI Powered Data Analytics</h3>
+              <span>Tata · Forage</span>
 
-              <p>
-                Tata · Forage
-              </p>
+              <a
+                href="/tata-forage-genai-data-analytics.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-certificate"
+              >
+                View Certificate
+              </a>
             </div>
-
           </div>
 
 
-          <div className="cert-card">
-
-            <span>✓</span>
+          {/* IBM */}
+          <div className="achievement-card">
+            <strong>✓</strong>
 
             <div>
-              <h3>
-                Python for Data Science
-              </h3>
+              <h3>Python for Data Science</h3>
+              <span>IBM</span>
 
-              <p>
-                IBM
-              </p>
+              <a
+                href="/ibm-python-for-data-science.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-certificate"
+              >
+                View Certificate
+              </a>
             </div>
-
           </div>
 
 
-          <div className="cert-card">
-
-            <span>✓</span>
+          {/* Machine Learning */}
+          <div className="achievement-card">
+            <strong>✓</strong>
 
             <div>
-              <h3>
-                Machine Learning with Python
-              </h3>
+              <h3>Machine Learning with Python</h3>
+              <span>Professional Certification</span>
 
-              <p>
-                Professional Certification
-              </p>
+              <a
+                href="/machine-learning-with-python.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-certificate"
+              >
+                View Certificate
+              </a>
             </div>
-
           </div>
 
 
-          <div className="cert-card">
+          {/* Automatic Waste Segregation */}
+          <div className="achievement-card">
+            <strong>✓</strong>
 
-            <span>✓</span>
+            <div>
+              <h3>Automatic Waste Segregation System</h3>
+              <span>Research Paper · IJIRT</span>
+
+              <a
+                href="/automatic-waste-segregation-system.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-certificate"
+              >
+                View Certificate
+              </a>
+            </div>
+          </div>
+
+
+          {/* AI Smart Interview Preparation */}
+          <div className="achievement-card">
+            <strong>✓</strong>
 
             <div>
               <h3>
-                Automatic Waste Segregation System
+                AI-Powered Smart Interview Preparation System with
+                Voice & Facial Analysis
               </h3>
 
-              <p>
-                Paper Publication · IJIRT
-              </p>
-            </div>
+              <span>
+                National Conference on Recent Trends in Engineering &
+                Technology, 2026
+              </span>
 
+              <a
+                href="/ai-smart-interview-preparation-research-paper.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="view-certificate"
+              >
+                View Certificate
+              </a>
+            </div>
           </div>
 
         </div>
+      </section>
 
+
+      {/* ================= ACHIEVEMENTS ================= */}
+      <section className="section achievements-section">
+
+        <div className="section-heading">
+          <p>ACHIEVEMENTS</p>
+          <h2>Some things I am proud of</h2>
+        </div>
+
+        <div className="achievement-grid">
+
+          <div className="achievement-card">
+            <strong>13+</strong>
+            <span>Projects Completed</span>
+          </div>
+
+          <div className="achievement-card">
+            <strong>100+</strong>
+            <span>Mock Interview Sessions</span>
+          </div>
+
+          <div className="achievement-card">
+            <strong>2026</strong>
+            <span>B.Tech Graduation</span>
+          </div>
+
+          <div className="achievement-card">
+            <strong>2</strong>
+            <span>Research Paper Presented</span>
+          </div>
+
+        </div>
       </section>
 
 
       {/* ================= CONTACT ================= */}
-
-      <section
-        className="contact-section"
-        id="contact"
-      >
+      <section className="contact-section" id="contact">
 
         <div className="contact-container">
 
-          <p className="small-title">
-            GET IN TOUCH
-          </p>
+          <p className="eyebrow">CONTACT</p>
 
           <h2>
-            Let's work <span>together.</span>
+            Let's <span>connect.</span>
           </h2>
 
           <p>
-            I'm open to Data Analyst, Business Analyst and
-            entry-level AI & Machine Learning opportunities.
+            I'm currently looking for an entry-level opportunity in
+            Data Analytics or a related field. If you have an
+            opportunity or would simply like to connect, feel free
+            to reach out.
           </p>
 
-          <a
-            href="mailto:psakshi2402@gmail.com"
-            className="contact-email"
-          >
-            psakshi2402@gmail.com
-          </a>
+          <div className="contact-details">
+
+            <a href="mailto:sakshirpawar24@gmail.com">
+              <small>Email</small>
+              sakshirpawar24@gmail.com
+            </a>
+
+            <a href="tel:7385576691">
+              <small>Phone</small>
+              7385576691
+            </a>
+
+            <div>
+              <small>Location</small>
+              Sangli, Maharashtra, India
+            </div>
+
+          </div>
 
 
-          <div className="social-links">
+          <div className="contact-buttons">
 
             <a
               href="https://www.linkedin.com/in/sakshipawar0407/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
+              className="btn primary"
             >
               LinkedIn
             </a>
@@ -802,31 +840,41 @@ function App() {
             <a
               href="https://github.com/psakshi2402-hub"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
+              className="btn outline"
             >
               GitHub
             </a>
 
             <a
-              href="mailto:psakshi2402@gmail.com"
+              href="mailto:sakshirpawar24@gmail.com"
+              className="btn outline"
             >
-              Email
+              Email Me
             </a>
 
           </div>
 
         </div>
-
       </section>
 
 
       {/* ================= FOOTER ================= */}
-
       <footer>
 
-        <span>
-          © 2026 Sakshi Pawar
-        </span>
+        <div>
+          <strong>
+            Sakshi<span>.</span>
+          </strong>
+
+          <p>
+            Data Analyst | AI & ML Graduate
+          </p>
+        </div>
+
+        <p>
+          © 2026 Sakshi Pawar. All Rights Reserved.
+        </p>
 
         <a href="#home">
           Back to top ↑
