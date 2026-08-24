@@ -591,169 +591,172 @@ function App() {
       </section>
 
 
-      {/* ================= CERTIFICATES ================= */}
-      <section
-        className="section achievements-section"
-        id="certifications"
-      >
+     {/* ================= CERTIFICATES ================= */}
+<section
+  className="section achievements-section"
+  id="certifications"
+>
+  <div className="section-heading">
+    <p>CERTIFICATES</p>
+    <h2>My Certifications</h2>
+  </div>
 
-        <div className="section-heading">
-          <p>CERTIFICATES</p>
-          <h2>My Certifications</h2>
-        </div>
+  <div className="achievement-grid">
 
-        <div className="achievement-grid">
+    {/* Google Cloud */}
+    <div className="achievement-card">
+      <strong>✓</strong>
 
-          {/* Google Cloud */}
-          <div className="achievement-card">
-            <strong>✓</strong>
+      <div className="certificate-content">
+        <h3>Google Cloud Career Launchpad</h3>
 
-            <div>
-              <h3>Google Cloud Career Launchpad</h3>
-              <span>Data Analytics Track</span>
+        <span>Data Analytics Track</span>
 
-              <a
-                href="/google-cloud-career-launchpad.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="view-certificate"
-              >
-                View Certificate
-              </a>
-            </div>
-          </div>
-
-
-          {/* Deloitte */}
-          <div className="achievement-card">
-            <strong>✓</strong>
-
-            <div>
-              <h3>Data Analytics</h3>
-              <span>Deloitte</span>
-
-              <a
-                href="/deloitte-data-analytics.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="view-certificate"
-              >
-                View Certificate
-              </a>
-            </div>
-          </div>
+        <a
+          href="/google-cloud-career-launchpad.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+    </div>
 
 
-          {/* Tata Forage */}
-          <div className="achievement-card">
-            <strong>✓</strong>
+    {/* Deloitte */}
+    <div className="achievement-card">
+      <strong>✓</strong>
 
-            <div>
-              <h3>GenAI Powered Data Analytics</h3>
-              <span>Tata · Forage</span>
+      <div className="certificate-content">
+        <h3>Data Analytics</h3>
 
-              <a
-                href="/tata-forage-genai-data-analytics.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="view-certificate"
-              >
-                View Certificate
-              </a>
-            </div>
-          </div>
+        <span>Deloitte</span>
 
-
-          {/* IBM */}
-          <div className="achievement-card">
-            <strong>✓</strong>
-
-            <div>
-              <h3>Python for Data Science</h3>
-              <span>IBM</span>
-
-              <a
-                href="/ibm-python-for-data-science.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="view-certificate"
-              >
-                View Certificate
-              </a>
-            </div>
-          </div>
+        <a
+          href="/deloitte-data-analytics.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+    </div>
 
 
-          {/* Machine Learning */}
-          <div className="achievement-card">
-            <strong>✓</strong>
+    {/* Tata Forage */}
+    <div className="achievement-card">
+      <strong>✓</strong>
 
-            <div>
-              <h3>Machine Learning with Python</h3>
-              <span>Professional Certification</span>
+      <div className="certificate-content">
+        <h3>GenAI Powered Data Analytics</h3>
 
-              <a
-                href="/machine-learning-with-python.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="view-certificate"
-              >
-                View Certificate
-              </a>
-            </div>
-          </div>
+        <span>Tata · Forage</span>
 
-
-          {/* Automatic Waste Segregation */}
-          <div className="achievement-card">
-            <strong>✓</strong>
-
-            <div>
-              <h3>Automatic Waste Segregation System</h3>
-              <span>Research Paper · IJIRT</span>
-
-              <a
-                href="/automatic-waste-segregation-system.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="view-certificate"
-              >
-                View Certificate
-              </a>
-            </div>
-          </div>
+        <a
+          href="/tata-forage-genai-data-analytics.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+    </div>
 
 
-          {/* AI Smart Interview Preparation */}
-          <div className="achievement-card">
-            <strong>✓</strong>
+    {/* IBM */}
+    <div className="achievement-card">
+      <strong>✓</strong>
 
-            <div>
-              <h3>
-                AI-Powered Smart Interview Preparation System with
-                Voice & Facial Analysis
-              </h3>
+      <div className="certificate-content">
+        <h3>Python for Data Science</h3>
 
-              <span>
-                National Conference on Recent Trends in Engineering &
-                Technology, 2026
-              </span>
+        <span>IBM</span>
 
-              <a
-                href="/ai-smart-interview-preparation-research-paper.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="view-certificate"
-              >
-                View Certificate
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </section>
+        <a
+          href="/ibm-python-for-data-science.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+    </div>
 
 
+    {/* Machine Learning */}
+    <div className="achievement-card">
+      <strong>✓</strong>
+
+      <div className="certificate-content">
+        <h3>Machine Learning with Python</h3>
+
+        <span>Professional Certification</span>
+
+        <a
+          href="/machine-learning-with-python.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+    </div>
+
+
+    {/* Automatic Waste Segregation */}
+    <div className="achievement-card">
+      <strong>✓</strong>
+
+      <div className="certificate-content">
+        <h3>Automatic Waste Segregation System</h3>
+
+        <span>Research Paper · IJIRT</span>
+
+        <a
+          href="/automatic-waste-segregation-system.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+    </div>
+
+
+    {/* AI Smart Interview Preparation */}
+    <div className="achievement-card">
+      <strong>✓</strong>
+
+      <div className="certificate-content">
+        <h3>
+          AI-Powered Smart Interview Preparation System with
+          Voice & Facial Analysis
+        </h3>
+
+        <span>
+          National Conference on Recent Trends in Engineering &
+          Technology, 2026
+        </span>
+
+        <a
+          href="/ai-smart-interview-preparation-research-paper.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
       {/* ================= ACHIEVEMENTS ================= */}
       <section className="section achievements-section">
 

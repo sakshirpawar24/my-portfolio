@@ -223,11 +223,6 @@ footer strong span {
   margin-bottom: 12px;
 }
 
-
-/* =========================================================
-   HERO BUTTONS
-========================================================= */
-
 .hero-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -1066,63 +1061,9 @@ footer strong span {
   gap: 18px;
 }
 
-.certificate-card {
-  padding: 22px;
-
-  display: flex;
-  align-items: flex-start;
-
-  gap: 15px;
-
-  background: #091b2a;
-
-  border: 1px solid #1d394c;
-  border-radius: 15px;
-
-  transition: 0.3s ease;
-}
-
-.certificate-card:hover {
-  border-color: #13d9e8;
-  transform: translateY(-3px);
-}
-
-.certificate-card > span {
-  width: 31px;
-  height: 31px;
-
-  flex-shrink: 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 50%;
-
-  background: #102d3f;
-
-  color: #13d9e8;
-
-  font-weight: 800;
-}
-
-.certificate-card h3 {
-  color: #eef5f8;
-
-  font-size: 15px;
-
-  margin-bottom: 3px;
-}
-
-.certificate-card p {
-  color: #829baa;
-
-  font-size: 12px;
-}
-
 
 /* =========================================================
-   ACHIEVEMENTS
+   ACHIEVEMENTS / CERTIFICATE CARDS
 ========================================================= */
 
 .achievement-grid {
@@ -1140,7 +1081,7 @@ footer strong span {
   padding: 25px 24px;
 
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 
   gap: 16px;
 
@@ -1156,11 +1097,18 @@ footer strong span {
 
 .achievement-card:hover {
   border-color: #13d9e8;
+
   transform: translateY(-4px);
 }
 
-.achievement-card strong {
+
+/* =========================================================
+   CERTIFICATE ICON
+========================================================= */
+
+.achievement-card > strong {
   min-width: 34px;
+  width: 34px;
   height: 34px;
 
   display: flex;
@@ -1179,34 +1127,60 @@ footer strong span {
   font-weight: 800;
 }
 
-.achievement-card h3 {
-  margin: 0 0 7px;
+
+/* =========================================================
+   CERTIFICATE CONTENT
+========================================================= */
+
+.certificate-content {
+  flex: 1;
+
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.certificate-content h3 {
+  margin: 0 0 8px;
 
   color: #f2f7fa;
 
   font-size: 16px;
   font-weight: 700;
+
+  line-height: 1.45;
 }
 
-.achievement-card span {
+.certificate-content span {
+  display: block;
+
+  margin: 0;
+
   color: #829baa;
 
   font-size: 13px;
 
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 
 /* =========================================================
-   VIEW CERTIFICATE BUTTON
+   VIEW CERTIFICATE
 ========================================================= */
 
 .view-certificate {
-  display: inline-block;
+  display: inline-flex;
 
-  margin-top: 12px;
+  align-items: center;
+  justify-content: center;
 
-  padding: 7px 14px;
+  margin-top: 13px;
+  margin-left: 0;
+
+  padding: 7px 15px;
 
   color: #13d9e8;
 
@@ -1217,6 +1191,8 @@ footer strong span {
 
   font-size: 11px;
   font-weight: 700;
+
+  line-height: 1;
 
   text-decoration: none;
 
@@ -1233,6 +1209,28 @@ footer strong span {
   transform: translateY(-2px);
 
   box-shadow: 0 6px 18px rgba(19, 217, 232, 0.18);
+}
+
+
+/* =========================================================
+   ACHIEVEMENT TEXT
+========================================================= */
+
+.achievement-card h3 {
+  margin: 0 0 7px;
+
+  color: #f2f7fa;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.achievement-card span {
+  color: #829baa;
+
+  font-size: 13px;
+
+  line-height: 1.5;
 }
 
 
@@ -1667,16 +1665,25 @@ footer > a {
   /* ACHIEVEMENTS */
 
   .achievement-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
+  .achievement-card {
+    padding: 22px 20px;
+  }
 
-  /* VIEW CERTIFICATE */
+  .certificate-content h3 {
+    font-size: 15px;
+  }
+
+  .certificate-content span {
+    font-size: 12px;
+  }
 
   .view-certificate {
-    margin-top: 10px;
+    margin-top: 12px;
 
-    padding: 6px 12px;
+    padding: 7px 14px;
 
     font-size: 10px;
   }
@@ -1800,6 +1807,7 @@ footer > a {
 
   .view-certificate {
     font-size: 10px;
+
     padding: 6px 11px;
   }
 }
