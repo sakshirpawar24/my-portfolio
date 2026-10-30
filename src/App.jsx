@@ -124,11 +124,11 @@ function App() {
           <div className="about-content">
 
             <span className="about-role">
-              Data Analyst & AI / ML Graduate
+              B.Tech Graduate | Aspiring IT Professional
             </span>
 
             <h3>
-              I enjoy working with data and solving practical problems.
+              I enjoy exploring new technologies, solving problems and creating practical solutions.
             </h3>
 
             <p>
