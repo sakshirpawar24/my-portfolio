@@ -132,10 +132,11 @@ function App() {
             </h3>
 
             <p>
-              I recently completed my B.Tech in Artificial Intelligence
-              and Machine Learning. During college and internships, I
-              worked on projects related to data analysis, machine
-              learning and application development.
+              I recently completed my B.Tech in Artificial Intelligence and Machine Learning. During my academic journey and internships, I gained experience working on projects involving data analysis, machine learning, application development and software testing.
+
+I have knowledge of programming languages, databases, data tools and technologies such as Python, SQL, Java, Linux and Docker. I enjoy exploring new technologies, learning new skills and solving practical problems.
+
+I am currently seeking an entry-level opportunity where I can apply my technical knowledge, contribute to the team, gain industry experience and grow professionally.
             </p>
 
             <p>
@@ -646,7 +647,7 @@ skills
         <div className="achievement-grid">
 
           <div className="achievement-card">
-            <strong>13+</strong>
+            <strong>13+ Academic & Technical Projects</strong>
             <span>Projects Completed</span>
           </div>
 
@@ -681,10 +682,7 @@ skills
           </h2>
 
           <p>
-            I'm currently looking for an entry-level opportunity in
-            Data Analytics or a related field. If you have an
-            opportunity or would simply like to connect, feel free
-            to reach out.
+            I'm currently looking for an entry-level opportunity in the IT and technology field where I can apply my skills, learn new technologies and grow professionally. If you have an opportunity or would simply like to connect, feel free to reach out.
           </p>
 
           <div className="contact-details">
