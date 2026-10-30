@@ -385,9 +385,15 @@ skills
               <span>Power BI</span>
               <span>Tableau</span>
               <span>Looker Studio</span>
-              <span>Excel</span>
+              <span> Advanced Excel</span>
               <span>Pivot Tables</span>
               <span>VLOOKUP</span>
+              <span>Data Cleaning</span>
+              <span>EDA</span>
+              <span>Data Validation</span>
+              <span>ETL</span>
+              <span>Data Visualization</span>
+              <span>Reporting</span>
             </div>
           </div>
 
@@ -404,6 +410,8 @@ skills
               <span>PHP</span>
               <span>Pandas</span>
               <span>NumPy</span>
+              <span>OOP</span>
+              <span>Data Visualization</span>
             </div>
           </div>
 
@@ -414,11 +422,33 @@ skills
             <h3>Machine Learning & AI</h3>
 
             <div className="skill-tags">
+              <span>Machine Learning</span>
               <span>Predictive Analytics</span>
               <span>Classification</span>
               <span>Regression</span>
               <span>Model Evaluation</span>
               <span>NLP</span>
+              <span>Scikit-learn</span>
+              <span>Matplotlib</span>
+              <span>OpenCV</span>
+
+            </div>
+          </div>
+
+          <div className="skill-card">
+            <div className="skill-icon">03</div>
+
+            <h3>Operating Systems</h3>
+
+            <div className="skill-tags">
+              <span>Linux</span>
+              <span>Ubuntu</span>
+              <span>Windows</span>
+              <span>Command-Line Operations</span>
+              <span>File Management</span>
+              <span>Process Management</span>
+              <span>Basic Troubleshooting</span>
+
             </div>
           </div>
 
@@ -426,18 +456,66 @@ skills
           <div className="skill-card">
             <div className="skill-icon">04</div>
 
-            <h3>Tools & Platforms</h3>
+            <h3>DevOps & Development Tools</h3>
 
             <div className="skill-tags">
               <span>GitHub</span>
+              <span>Git</span>
               <span>VS Code</span>
               <span>Google Colab</span>
-              <span>Android Studio</span>
+              <span>Bash Scripting</span>
             </div>
           </div>
 
         </div>
-      </section>
+
+         <div className="skill-card">
+            <div className="skill-icon">04</div>
+
+            <h3>Mobile App Development</h3>
+
+            <div className="skill-tags">
+              <span>Android Studio</span>
+              <span>Android SDK</span>
+              <span>Java</span>
+              <span>XML</span>
+              <span>SQLite</span>
+            </div>
+          
+
+          <div className="skill-card">
+            <div className="skill-icon">03</div>
+
+            <h3>Software Development & Testing</h3>
+
+            <div className="skill-tags">
+              <span>Application Development</span>
+              <span>Software Testing</span>
+              <span>Database Connectivity</span>
+              <span>Debugging</span>
+              <span>Problem Solving</span>
+
+            </div>
+          </div>
+
+          <div className="skill-card">
+            <div className="skill-icon">03</div>
+
+            <h3>Professional Skills</h3>
+
+            <div className="skill-tags">
+              <span>Communication</span>
+              <span>Teamwork</span>
+              <span>Time Management</span>
+              <span>Adaptability</span>
+              <span>Analytical Thinking</span>
+
+            </div>
+          </div>
+
+        </div>
+        </section>
+      
 
 
       {/* ================= PROJECTS ================= */}
