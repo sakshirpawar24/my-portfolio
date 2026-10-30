@@ -42,14 +42,9 @@ function App() {
             <h2>B.Tech Graduate | Aspiring IT Professional</h2>
 
             <p className="hero-description">
-              I'm an AI & Machine Learning graduate interested in Data
-              Analytics. I work with Python, SQL, Power BI and Excel.
+            I am a 2026 B.Tech graduate in Artificial Intelligence and Machine Learning with knowledge of Python, SQL, Java, PHP, Linux, and various development and data tools. I have worked on academic projects and internships involving data analysis, machine learning, application development, and software testing. I enjoy learning new technologies, solving problems, and applying my technical knowledge to practical tasks. I am looking for an entry-level opportunity where I can contribute my skills, gain industry experience, and grow as a technology professional.
             </p>
 
-            <p className="hero-description">
-              I like exploring data, finding patterns and creating
-              dashboards that are simple and easy to understand.
-            </p>
 
             <div className="hero-buttons">
               <a
