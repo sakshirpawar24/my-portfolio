@@ -164,7 +164,7 @@ function App() {
 
               <div>
                 <span>Interested In</span>
-                <strong>Data Analytics & AI/ML</strong>
+                <strong>Technology & IT Opportunities</strong>
               </div>
 
             </div>
@@ -232,7 +232,7 @@ function App() {
             </h3>
 
             <h4>
-              Pt Vishnu Digambarkar Vidyalaya, Palus
+              Pt. Vishnu Digambar Paluskar Vidyalaya, Palus
             </h4>
 
             <p className="score">
@@ -263,21 +263,19 @@ function App() {
                 FEB 2026 – AUG 2026
               </span>
 
-              <h3>Mobile Application Developer Intern</h3>
+              <h3>Project Trainee</h3>
 
               <h4>
                 ECS Software Technologies Pvt. Ltd., Karad
               </h4>
 
               <p>
-                I worked on an Android application using Java and
-                Android Studio. I helped add and test different
-                application features.
+                Contributed to the Pigmy Bank Management System in the IT Operations department.Developed Customer Registration Module features using Java, XML and Android SDK, and created app screens in
+Android Studio
               </p>
 
               <p>
-                I also worked on the design of more than five screens
-                and made changes based on the project requirements.
+               Worked on registration functionality, database connectivity and software testing.
               </p>
 
             </div>
@@ -293,21 +291,19 @@ function App() {
                 APR 2024 – MAY 2024
               </span>
 
-              <h3>Python & Machine Learning Intern</h3>
+              <h3>AI/ML Developer Intern</h3>
 
               <h4>
                 Techspot Infotech, Sangli
               </h4>
 
               <p>
-                During this internship, I worked with Python and
-                machine learning for data-related tasks.
+                Completed assignments and project tasks involving Artificial Intelligence and Machine Learning concepts and tools.
+
               </p>
 
               <p>
-                I practiced working with datasets containing more than
-                5,000 records and learned how to prepare data for
-                analysis and prediction.
+                Practised machine learning methods and problem-solving through internship activities.
               </p>
 
             </div>
@@ -330,9 +326,8 @@ function App() {
               </h4>
 
               <p>
-                I worked with PHP and MySQL while learning how
-                web-based management systems are developed and
-                maintained.
+                 I worked with PHP and MySQL to handle software tasks, such, as project design and analysis.Finished assigned tasks. I kept improving PHP, MySQL and software tasks communication and problem-solving
+skills
               </p>
 
             </div>
